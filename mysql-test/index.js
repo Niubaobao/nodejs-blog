@@ -16,7 +16,6 @@ con.query(sql,(err,result)=>{
     console.error(err)
     return
   }
-  console.log(result)
 })
 //关闭链接
 con.end()
